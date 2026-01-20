@@ -1,0 +1,599 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="KLYR — Social Media Management studio: strategija, vizuelni identitet, sadržaj, reels i karuseli, planiranje i mesečni paketi. Remote-first, etičko brendiranje." />
+  <meta name="theme-color" content="#0b0d12" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="KLYR — Social Media Management" />
+  <meta property="og:description" content="Jasan digitalni identitet, profesionalno prisustvo, poverenje i vidljivost. Bez internog tima." />
+  <meta property="og:type" content="website" />
+
+  <title>KLYR — Social Media Management</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Decorative background layers -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  <a class="skip-link" href="#main">Preskoči na sadržaj</a>
+
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="KLYR početna">
+        <span class="brand-mark" aria-hidden="true">
+          <!-- Simple inline mark (replace with your real SVG/logo when ready) -->
+          <svg viewBox="0 0 64 64" width="28" height="28" role="img" aria-label="KLYR">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="var(--accent)" />
+                <stop offset="1" stop-color="var(--accent2)" />
+              </linearGradient>
+            </defs>
+            <circle cx="32" cy="32" r="26" fill="none" stroke="url(#g)" stroke-width="4"/>
+            <path d="M14 36c9-10 17-14 36-14" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+            <path d="M18 46c10-7 16-9 28-9" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">KLYR</span>
+          <span class="brand-tag">social media management</span>
+        </span>
+      </a>
+
+      <!-- Mobile nav: checkbox hack (no JS) -->
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Otvori meni" />
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Glavna navigacija">
+        <a href="#usluge">Usluge</a>
+        <a href="#paketi">Paketi</a>
+        <a href="#proces">Proces</a>
+        <a href="#uticaj">Društveni uticaj</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="pill">Remote-first</span>
+            <span class="pill">Mesečni paketi</span>
+            <span class="pill">Etičko brendiranje</span>
+          </p>
+
+          <h1 class="headline">
+            Izgradi <span class="accent">jasan digitalni identitet</span>,
+            podigni poverenje, i budi vidljiv
+            <span class="muted">bez internog tima.</span>
+          </h1>
+
+          <p class="lead">
+            KLYR je studio za upravljanje sadržajem i društvenim mrežama.
+            Spajamo strategiju, vizuelni identitet i doslednu produkciju (reels, karuseli, objave)
+            da tvoj brend izgleda profesionalno i stabilno, iz meseca u mesec.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#paketi">Pogledaj pakete</a>
+            <a class="btn ghost" href="#kontakt">Zakaži razgovor</a>
+          </div>
+
+          <div class="trust-row" aria-label="Brzi pokazatelji kvaliteta">
+            <div class="trust">
+              <span class="trust-num">01</span>
+              <span class="trust-txt">Strategija + sadržaj + dizajn</span>
+            </div>
+            <div class="trust">
+              <span class="trust-num">02</span>
+              <span class="trust-txt">Direktna komunikacija</span>
+            </div>
+            <div class="trust">
+              <span class="trust-num">03</span>
+              <span class="trust-txt">Doslednost brenda</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Pregled ponude">
+          <div class="glass-card">
+            <div class="card-head">
+              <h2 class="card-title">Šta dobijaš u praksi</h2>
+              <p class="card-sub">Usluga organizovana kao “mesečni sistem”, ne kao jednokratni haos.</p>
+            </div>
+
+            <ul class="checklist">
+              <li>Upravljanje sadržajem i plan objava</li>
+              <li>Vizuelni identitet za mreže</li>
+              <li>Reels i karuseli (kreativa + dizajn)</li>
+              <li>Strateška podrška i smernice</li>
+              <li>Optimizacija profila i dosledan ton</li>
+            </ul>
+
+            <div class="mini-grid">
+              <div class="mini">
+                <span class="mini-k">Kanali</span>
+                <span class="mini-v">Instagram, LinkedIn, Web</span>
+              </div>
+              <div class="mini">
+                <span class="mini-k">Za koga</span>
+                <span class="mini-v">Mali biznis, edukatori, terapeuti, lični brendovi</span>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <a class="btn small primary" href="#kontakt">Pošalji upit</a>
+              <a class="btn small ghost" href="#usluge">Detalji usluga</a>
+            </div>
+          </div>
+
+          <p class="note">
+            * Ovo je prezentacioni sajt. Kontakt forma je “front-end only” (može se lako povezati na email/API kasnije).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF / STATS -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat">
+          <span class="stat-big">Jasnoća</span>
+          <span class="stat-small">digitalnog identiteta</span>
+        </div>
+        <div class="stat">
+          <span class="stat-big">Poverenje</span>
+          <span class="stat-small">kroz dosledan sadržaj</span>
+        </div>
+        <div class="stat">
+          <span class="stat-big">Vidljivost</span>
+          <span class="stat-small">bez “spam” pristupa</span>
+        </div>
+        <div class="stat">
+          <span class="stat-big">Fokus</span>
+          <span class="stat-small">dugoročna saradnja</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="usluge" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Usluge</h2>
+          <p>
+            KLYR pokriva ono što najčešće “puca” kod brendova: vreme, znanje, neiskorišćen sadržaj i slabe konverzije.
+            Uvodi se sistem, a ne improvizacija.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Strategija sadržaja</h3>
+            <p>Struktura tema, rubrike, ton komunikacije, ciljevi po periodima, plan objava i CTA logika.</p>
+            <ul class="bullets">
+              <li>Plan po nedeljama</li>
+              <li>Content pillars</li>
+              <li>Funnel logika (lead → trust → upit)</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Vizuelni identitet</h3>
+            <p>Ujednačen izgled profila, šabloni, tipografija, boje, sistem kartica i cover-a.</p>
+            <ul class="bullets">
+              <li>Template set</li>
+              <li>Guide za dizajn</li>
+              <li>Doslednost brenda</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Reels + karuseli</h3>
+            <p>Od ideje do gotovog formata: hook, struktura, dizajn i ritam objava.</p>
+            <ul class="bullets">
+              <li>Script / struktura</li>
+              <li>Dizajn karusela</li>
+              <li>Reels koncepti</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Upravljanje profilom</h3>
+            <p>Objavljivanje, optimizacija, mini-analitika i korekcije u hodu da se održi rast i stabilnost.</p>
+            <ul class="bullets">
+              <li>Profil setup</li>
+              <li>Content calendar</li>
+              <li>Osnovni KPI tracking</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Direktna komunikacija</h3>
+            <p>Brza koordinacija bez posrednika. Jasni dogovori, rokovi, i kvalitet kontrole.</p>
+            <ul class="bullets">
+              <li>Jedan kontakt</li>
+              <li>Brz feedback loop</li>
+              <li>Strategijska podrška</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Case studi & preporuke</h3>
+            <p>Gradimo kredibilitet kroz primere: pre/posle, studije slučaja i društveni dokaz.</p>
+            <ul class="bullets">
+              <li>Proof content</li>
+              <li>Testimonial struktura</li>
+              <li>Brend autoritet</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="paketi" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Paketi</h2>
+          <p>
+            Mesečni modeli daju rezultate jer grade kontinuitet. Jednokratni projekti su tu kada treba “srediti kuću”.
+            (Cene su placeholder — zameni ih svojim realnim brojkama.)
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <div class="price-top">
+              <h3>Starter</h3>
+              <p class="price-desc">Za brend koji želi red i minimalan stabilan output.</p>
+              <p class="price">
+                <span class="amount">€299</span><span class="per">/mes</span>
+              </p>
+            </div>
+            <ul class="checklist compact">
+              <li>Content plan (mesečno)</li>
+              <li>8 objava (dizajn + tekst)</li>
+              <li>Osnovni vizuelni sistem</li>
+              <li>1 krug revizija</li>
+              <li>Mini KPI pregled</li>
+            </ul>
+            <a class="btn primary full" href="#kontakt">Odaberi Starter</a>
+            <p class="price-note">Idealno za: mali biznis / lični brend na početku.</p>
+          </article>
+
+          <article class="price-card featured">
+            <div class="badge">Najtraženiji</div>
+            <div class="price-top">
+              <h3>Growth</h3>
+              <p class="price-desc">Za stabilan rast, jači dizajn sistem i više formata.</p>
+              <p class="price">
+                <span class="amount">€549</span><span class="per">/mes</span>
+              </p>
+            </div>
+            <ul class="checklist compact">
+              <li>Strategija + content pillars</li>
+              <li>12–16 objava (mix formata)</li>
+              <li>4 karusela mesečno</li>
+              <li>2 Reels koncepta (script)</li>
+              <li>2–3 kruga revizija</li>
+              <li>Profil optimizacija</li>
+            </ul>
+            <a class="btn primary full" href="#kontakt">Odaberi Growth</a>
+            <p class="price-note">Idealno za: edukatore, terapeute, usluge sa poverenjem.</p>
+          </article>
+
+          <article class="price-card">
+            <div class="price-top">
+              <h3>Premium</h3>
+              <p class="price-desc">Za brend koji želi “full” sistem i strateško vođenje.</p>
+              <p class="price">
+                <span class="amount">€899</span><span class="per">/mes</span>
+              </p>
+            </div>
+            <ul class="checklist compact">
+              <li>Kompletna strategija i roadmap</li>
+              <li>20+ objava / mes</li>
+              <li>Reels produkcioni plan</li>
+              <li>Studije slučaja / proof content</li>
+              <li>Prioritetna komunikacija</li>
+              <li>Mesečni review + optimizacija</li>
+            </ul>
+            <a class="btn primary full" href="#kontakt">Odaberi Premium</a>
+            <p class="price-note">Idealno za: brendove koji žele dugoročno pozicioniranje.</p>
+          </article>
+        </div>
+
+        <div class="pricing-footer">
+          <div class="soft-card">
+            <h3>Jednokratni projekti</h3>
+            <p>
+              Kada ti treba brzo “resetovanje”: vizuelni sistem, profile setup, landing dizajn, ili kampanja.
+              U praksi: 7–14 dana, jasno definisan scope.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Brand refresh</span>
+              <span class="pill">Profile audit</span>
+              <span class="pill">Campaign kit</span>
+              <span class="pill">Template system</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="proces" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Proces rada</h2>
+          <p>
+            Fokus je na kontinuitetu, kvalitetu i poverenju. Sistem koji radi i kad nemaš vremena.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h3>Uvodni audit</h3>
+              <p>Pregled profila, sadržaja, pozicioniranja i ciljeva. Definišemo “šta tačno prodaješ” i “kome”.</p>
+              <div class="tags">
+                <span class="tag">Analiza</span><span class="tag">Ciljevi</span><span class="tag">Publika</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h3>Sistem identiteta</h3>
+              <p>Vizuelni set + pravila. Brend dobija prepoznatljivost, a sadržaj postaje “svoj”.</p>
+              <div class="tags">
+                <span class="tag">Template</span><span class="tag">Tipografija</span><span class="tag">Doslednost</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h3>Produkcija & plan</h3>
+              <p>Uvodimo kalendar, rubrike i ritam. Reels/karuseli se grade kroz jasan hook i strukturu.</p>
+              <div class="tags">
+                <span class="tag">Plan</span><span class="tag">Reels</span><span class="tag">Karuseli</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-body">
+              <h3>Iteracija & optimizacija</h3>
+              <p>Mesečni pregled metrika i prilagođavanje. Cilj: rast, ali bez gubljenja autentičnosti.</p>
+              <div class="tags">
+                <span class="tag">KPI</span><span class="tag">Feedback</span><span class="tag">Rast</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL IMPACT -->
+    <section id="uticaj" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Društveni model i uticaj</h2>
+          <p>
+            KLYR je zamišljen kao odgovoran model rada: podizanje digitalne pismenosti i standarda sadržaja,
+            uz svest o pritiscima online okruženja.
+          </p>
+        </div>
+
+        <div class="impact-grid">
+          <article class="impact-card pos">
+            <h3>Pozitivne eksternalije</h3>
+            <ul class="bullets">
+              <li>Digitalna pismenost i kvalitet komunikacije</li>
+              <li>Jačanje malih biznisa i edukatora</li>
+              <li>Viši standard sadržaja u nišama gde je poverenje ključno</li>
+            </ul>
+          </article>
+
+          <article class="impact-card neg">
+            <h3>Negativne eksternalije</h3>
+            <ul class="bullets">
+              <li>Zavisnost od usluge ako ne postoji interni sistem</li>
+              <li>Zasićenje sadržajem u prepunim nišama</li>
+              <li>Online pritisak i “uvek moraš da objaviš” mentalitet</li>
+            </ul>
+          </article>
+
+          <article class="impact-card">
+            <h3>Mere uticaja (KPI)</h3>
+            <ul class="bullets">
+              <li>Doslednost brenda kroz vreme</li>
+              <li>Rast angažovanja i zadržavanje klijenata</li>
+              <li>Povratne informacije zajednice</li>
+              <li>Mesečni prihod i stabilnost saradnji</li>
+            </ul>
+          </article>
+
+          <article class="impact-card">
+            <h3>Višak i reinvestiranje</h3>
+            <ul class="bullets">
+              <li>Reinvestiranje u alate i kvalitet rada</li>
+              <li>Razvoj veština i edukacija</li>
+              <li>Podrška društveno korisnim inicijativama</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQ</h2>
+          <p>Najčešća pitanja pre saradnje.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Da li radite samo Instagram?</summary>
+            <div class="faq-body">
+              Radimo Instagram i LinkedIn kao primarne kanale, uz podršku za web (landing tekstovi, struktura, vizuelni elementi).
+              Kanal biramo prema tome gde tvoja publika realno donosi odluku.
+            </div>
+          </details>
+
+          <details>
+            <summary>Šta znači “direct communication”?</summary>
+            <div class="faq-body">
+              Imaš direktan kontakt za dogovor i feedback, bez nepotrebnog “ping-pong”-a i gubljenja vremena.
+              Brže iteracije = stabilniji kvalitet.
+            </div>
+          </details>
+
+          <details>
+            <summary>Da li pravite i vizuelni identitet od nule?</summary>
+            <div class="faq-body">
+              Da. Možemo raditi “refresh” postojećeg ili kompletan sistem (boje, tipografija, šabloni, cover-i, guide).
+              Cilj je da sadržaj izgleda kao jedan brend, a ne kao različite epizode.
+            </div>
+          </details>
+
+          <details>
+            <summary>Kako izgleda početak saradnje?</summary>
+            <div class="faq-body">
+              Krećemo auditom + ciljevima, zatim identitet i sadržajna struktura, pa produkcija kroz mesečni plan.
+              Uvek postoji prostor za iteraciju kroz metrike i feedback.
+            </div>
+          </details>
+
+          <details>
+            <summary>Da li možete raditi jednokratni projekat?</summary>
+            <div class="faq-body">
+              Da: profile audit, template set, campaign kit, brand refresh, ili “sređivanje” kompletnog profila.
+              Ipak, najbolji rezultati dolaze kroz kontinuitet.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="kontakt" class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <h2>Kontakt</h2>
+            <p>
+              Pošalji osnovne informacije (niša, cilj, trenutni kanal).
+              Odgovor stiže sa predlogom paketa ili sledećeg koraka.
+            </p>
+
+            <div class="contact-cards">
+              <div class="contact-card">
+                <span class="cc-k">Email</span>
+                <span class="cc-v">hello@klyr.studio</span>
+              </div>
+              <div class="contact-card">
+                <span class="cc-k">Instagram</span>
+                <span class="cc-v">@klyr.studio</span>
+              </div>
+              <div class="contact-card">
+                <span class="cc-k">LinkedIn</span>
+                <span class="cc-v">KLYR Studio</span>
+              </div>
+              <div class="contact-card">
+                <span class="cc-k">Lokacija</span>
+                <span class="cc-v">Remote • Srbija / Region</span>
+              </div>
+            </div>
+
+            <p class="fine">
+              Partneri (po potrebi): kreativni freelanceri, dizajneri, copywriteri, video editori.
+            </p>
+          </div>
+
+          <form class="contact-form" action="#" method="post" aria-label="Kontakt forma">
+            <div class="form-head">
+              <h3>Pošalji upit</h3>
+              <p class="muted">Front-end demo: poveži sa EmailJS / Formspree / backend-om kada budeš spreman.</p>
+            </div>
+
+            <label>
+              Ime i prezime
+              <input type="text" name="name" placeholder="Npr. Ana Petrović" autocomplete="name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="npr. ana@email.com" autocomplete="email" required />
+            </label>
+
+            <label>
+              Kanal / Niša
+              <input type="text" name="niche" placeholder="Npr. edukacija, terapija, usluga, prodaja…" />
+            </label>
+
+            <label>
+              Poruka
+              <textarea name="message" rows="6" placeholder="Napiši ukratko cilj i šta ti trenutno fali (vreme, sistem, dizajn, konverzije)…" required></textarea>
+            </label>
+
+            <button class="btn primary full" type="submit">Pošalji</button>
+
+            <p class="tiny muted">
+              Slanjem upita prihvataš da te kontaktiramo nazad u vezi saradnje.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span class="brand-mini">KLYR</span>
+        <span class="muted">© <span id="y">2026</span> • Social Media Management</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#usluge">Usluge</a>
+        <a href="#paketi">Paketi</a>
+        <a href="#proces">Proces</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </div>
+
+    <!-- Tiny inline script only for year (optional).
+         If you truly want ZERO JS, delete this and hardcode year. -->
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
